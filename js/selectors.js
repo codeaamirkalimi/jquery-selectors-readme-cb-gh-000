@@ -2,9 +2,8 @@
 //$('parent-tag child-tag:first-child')
 //$("img[alt='the beatles making faces']")
 //$('div:last')
-/*Write a function ninjaBabySelector that does not accept any parameters.
- The function should use an ID selector to return the ninja baby image.
-
+/*Write a function divSelector that does not accept any parameters.
+ The function should use a class selector to return the two divs with the class pics.
  */
 function paragraphSelector() {
   return $('p');
@@ -14,4 +13,7 @@ function lastImageSelector() {
 }
 function ninjaBabySelector() {
   return $('img#baby-ninja');
+}
+function divSelector() {
+  return $('div.pics');
 }
