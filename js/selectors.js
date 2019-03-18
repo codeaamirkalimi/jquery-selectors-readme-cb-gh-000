@@ -2,7 +2,7 @@
 //$('parent-tag child-tag:first-child')
 //$("img[alt='the beatles making faces']")
 //$('div:last')
-/*Write a function firstListItem that does not accept any parameters. 
+/*Write a function firstListItem that does not accept any parameters.
 The function should use a first-child selector to return the first list item in the ul with the ID pic-list.
  */
  function firstListItem() {
